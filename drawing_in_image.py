@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-img=cv2.imread('C:/Users/lakki/Pictures/Camera Roll/photo(2).jpg', 1)
+img=cv2.imread('your_file_path.jpg', 1)
 img=cv2.line(img, (0,0), (255,255), (255,0,0), 15)
 img=cv2.arrowedLine(img, (0,255), (255,255), (255,0,0), 10)
 img=cv2.rectangle(img, (304, 0), (510, 128), (0,0,255), 10)
